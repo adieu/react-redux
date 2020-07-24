@@ -1,6 +1,7 @@
 import hoistStatics from 'hoist-non-react-statics'
 import invariant from 'invariant'
-import React, { Component, createElement } from 'react'
+import * as React from 'react'
+import { Component, createElement } from 'react'
 import { isValidElementType } from 'react-is'
 
 import Subscription from '../utils/Subscription'

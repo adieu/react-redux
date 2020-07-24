@@ -1,4 +1,5 @@
-import React, { Component, Children } from 'react'
+import * as React from 'react'
+import { Component, Children } from 'react'
 import PropTypes from 'prop-types'
 import { storeShape, subscriptionShape } from '../utils/PropTypes'
 import warning from '../utils/warning'
